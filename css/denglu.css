@@ -1,0 +1,224 @@
+.dlzt{
+  width:100%;
+  height:520px;
+}
+ .dl-title{
+   width:990px;
+   height:32px;
+   padding:6px 0 6px 0;
+   margin:0 auto;
+ }
+ .dl-title>i{
+    width:12px;
+    height:12px;
+	line-height:32px;
+    display:inline-block;
+    margin-right:5px;
+    vertical-align:middle;
+   background:url(../img/user_header.png) no-repeat -427px -208px;
+ }
+ .dl-title>a,.dl-title>span{
+   font-size:14px;
+   line-height:32px;
+   height:32px;
+ }
+ .dl-title>a:hover{
+    color:blue;
+ }
+.dl-mian{
+  width:990px;
+  height:442px;
+  margin:0 auto;
+  display:flex;
+}
+  .dl-mian>img{
+     width:605px;
+     height:430px;
+}
+  .dengluk{
+    width:385px;
+	height:442px;
+  }
+  .dengluk>h2{
+    font-size:12px;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	font-weight:normal;
+  }
+  .dengluk>h2>a{
+    color:red;
+  }
+  .dengluk>h2>a:hover,.zf-an a:hover{
+    text-decoration: underline;
+  }
+ .dengluk>.kj{
+    float:right;
+    overflow:hidden;
+    border:1px solid #ddd;
+    padding:20px 40px;
+    width:300px;
+    min-height:370px;
+    height:auto;
+	box-shadow:#ccc 0px 0px 5px;
+ }
+ .dengluk>.kj span{
+    font-size:14px;
+    color:#666;
+    padding-right:10px;
+    height:35px;
+    line-height:35px;
+    display:inline-block;
+ }
+   .dengluk input{
+    width:258px;
+    height:16px;
+    padding:10px 5px 10px 7px;
+    border:0.5px solid #ccc;
+    font-size: 12px;
+    font-family:arial;
+    color: #999;
+}
+  input:focus{
+     border:1px solid #ccc;
+  }
+  .zf-yz>input{
+    width:100px;
+  }
+  .zf-yz img{
+    height:36px;
+    margin:1px 5px;
+    width:135px;
+	vertical-align: middle;
+    cursor: pointer;
+}
+ .zf-an{
+    margin-top:10px;
+    height:30px;
+    line-height:30px;
+	font-size:12px;
+	margin-bottom:5px;
+ }
+ .zf-an input{
+   float:left;
+   margin-top:7px;
+   vertical-align:middle;
+   width:12.8px;
+   height:12.8px;
+ }
+ .zf-an label{
+    height: 26px;
+    line-height:26px;
+    margin-left:5px;
+	float:left;
+ }
+ .zf-an a{
+    float:right;
+    margin-top:-2px;
+    color:red;
+	cursor:pointer;
+ }
+ #anniu{
+    width:300px;
+    height:35px;
+    font-size:14px;
+    color:#FFF;
+    background:#E4393C;
+    text-align:center;
+    line-height:35px;
+    cursor:pointer;
+    letter-spacing:2px;
+    border:none;
+	padding:0;
+	border-radius:5px;
+	opacity:0.9;
+ }
+ #anniu:hover{
+   opacity:1;
+ }
+ .dengluk ul{
+   width:300px;
+   height:24px;
+   margin-top:20px;
+ }
+ .dengluk ul li{
+   float:left;
+   margin-right:16px;
+ }
+ .dengluk ul li i{
+    width:24px;
+    height:24px;
+	overflow:hidden;
+    display:inline-block;
+    vertical-align:middle;
+	background:no-repeat;
+	margin-right:3px;
+ }
+ .dengluk ul li:nth-child(1)>i{
+   background:url(../img/login.png) no-repeat -170px -40px;
+ }
+ .dengluk ul li:nth-child(2)>i{
+   background:url(../img/login.png) no-repeat -9px -40px;
+ }
+ .dengluk ul li:nth-child(3)>i{
+   background:url(../img/login.png) no-repeat -62px -40px;
+ }
+ .dengluk ul li:nth-child(4)>i{
+   background:url(../img/login.png) no-repeat -123px -40px;
+ }
+ .dengluk ul a:hover{
+   color:black;
+ }
+ .dl-footer{
+   padding-top:15px;
+   width:100%;
+   height:115px;
+   background:#fafafa;
+ }
+ .dl-footer>p{
+   width:990px;
+   height:25px;
+   line-height:25px;
+   text-align:center;
+   margin:0 auto;
+   font-size:12px;
+ }
+ .ft-fst{
+   margin-top:15px;
+ }
+ .ft-fst img{
+   width:23px;
+   height:16px;
+   vertical-align:bottom;
+  }
+  .dl-footer a:hover{
+    color:red;
+	text-decoration:underline;
+  }
+.kong::-webkit-input-placeholder{
+  color:#30B760;
+}
+.zf-pwd,.zf-name,.zf-yz{
+  position:relative;
+}
+.zf-name b,.zf-pwd b{
+   margin-left:100px;
+   font-weight:normal;
+   color:red;
+   font-size:12px;
+   display:inline-block;
+   height:13px; 
+   position:absolute;
+   top:15px;
+}
+.zf-yz b{
+   margin-left:10px;
+   font-weight:normal;
+   color:red;
+   font-size:12px;
+   display:inline-block;
+   height:13px; 
+   position:absolute;
+   top:10px;
+}

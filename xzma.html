@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  </style>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/xztp.css">
+ </head>
+ <body>
+   <ul class="xztp">
+    <li class="aa">
+     <a href="#"><img src="imgs/1.png" ></a>
+     <b class="btn xs"></b>
+    </li>
+    <li class="aa">
+      <a href="#"><img src="imgs/2.png"  ></a>
+      <b class="btn"></b>
+    </li>
+    <li class="aa">
+      <a href="#"><img src="imgs/3.png" ></a>
+      <b class="btn"></b>
+    </li>
+    <li class="aa">
+      <a href="#"><img src="imgs/4.png" ></a>
+      <b class="btn"></b>
+    </li>
+    <li class="aa">
+      <a href="#"><img src="imgs/5.png" ></a>
+      <b href="#" class="btn"></b>
+    </li>
+    <li class="aa">
+      <a href="#"><img src="imgs/6.png" ></a>
+      <b class="btn"></b>
+    </li>
+    <li class="aa">
+      <a href="#"><img src="imgs/7.png" ></a>
+      <b class="btn"></b>
+    </li>
+    <li class="aa">
+      <a href="#"><img src="imgs/8.png" ></a>
+      <b class="btn"></b>
+    </li>  
+   </ul>
+   <script src="js/jquery-1.11.3.js"></script>
+   <script>
+      $(".aa").click(e=>{
+        var $tar=$(e.target);
+        var l=parseInt($tar.offset().left);
+        console.log(l);
+       if(l==567){
+
+         var n=parseInt($tar.prev().children().attr("src").split("/")[1]);   
+             $tar.prve().children().attr("src","imgs/"+${})
+       }
+     
+      })
+  </script>
+ </body>
+</html>

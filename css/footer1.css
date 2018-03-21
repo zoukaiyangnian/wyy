@@ -1,0 +1,52 @@
+.dl-footer{
+   padding-top:15px;
+   width:100%;
+   height:115px;
+   background:#fafafa;
+ }
+ .dl-footer>p{
+   width:990px;
+   height:25px;
+   line-height:25px;
+   text-align:center;
+   margin:0 auto;
+   font-size:12px;
+ }
+ .ft-fst{
+   margin-top:15px;
+ }
+ .ft-fst img{
+   width:23px;
+   height:16px;
+   vertical-align:bottom;
+  }
+  .dl-footer a:hover{
+    color:red;
+	text-decoration:underline;
+  }
+.kong::-webkit-input-placeholder{
+  color:#30B760;
+}
+.zf-pwd,.zf-name,.zf-yz{
+  position:relative;
+}
+.zf-name b,.zf-pwd b{
+   margin-left:100px;
+   font-weight:normal;
+   color:red;
+   font-size:12px;
+   display:inline-block;
+   height:13px; 
+   position:absolute;
+   top:15px;
+}
+.zf-yz b{
+   margin-left:10px;
+   font-weight:normal;
+   color:red;
+   font-size:12px;
+   display:inline-block;
+   height:13px; 
+   position:absolute;
+   top:10px;
+}

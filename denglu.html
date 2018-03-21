@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+   <style></style>
+  <title>登录</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/denglu.css">
+  <link rel="stylesheet" href="css/footer1.css">
+ </head>
+ <body>
+    <div id="header"></div>
+    <div class="dlzt">
+      <div class="dl-title">
+         <i></i>
+         <a href="index.html">首页</a>
+         <span class="">&gt;用户中心</span>
+      </div>
+      <div class="dl-mian">
+         <img src="img/loginPic.jpg">
+         <div class="dengluk">
+            <h2>还没有账号？&nbsp;<a href="zhuce.html">立即注册</a></h2>		
+            <form class="kj" id="form1">
+               <div class="zf-name">
+                 <div>
+                   <span>账号名</span><b id="yname"></b>
+                 </div>
+                   <input type="text" name="uname" id="email" 
+                    placeholder="手机号/邮箱号">
+               </div>
+               <div class="zf-pwd">
+                  <div>
+                    <span>密码</span><b id="ypwd"></b>
+                  </div>
+                  <input type="password" name="upwd" id="upwd" 
+                  placeholder="请输入密码">
+               </div>
+               <div class="zf-yz">
+                  <div>
+                    <span>验证码</span><b id="yzm"></b>
+                  </div>
+                  <input type="text" id="code">
+                  <img src="data/users/code.php" alt="看不清点击换一张" 
+                  id="yztp">
+               </div>
+               <div class="zf-an">
+                  <div>
+                    <input type="checkbox" id="bd">
+                    <label for="bd">
+                    请保存我这次的登录信息
+                    </label>
+                    <a>忘记密码</a>
+                  </div>
+               </div>
+               <input type="button" value="立即登录" id="anniu">
+               <ul>
+                <li>
+                 <i></i>
+                  <a href="">微信</a>
+                </li>
+                <li>
+                  <i></i>
+                  <a href="">QQ</a>
+                </li>
+                <li>
+                  <i></i>
+                  <a href="">新浪</a>
+                </li>
+                <li>
+                  <i></i>
+                  <a href="">支付宝</a>
+                </li>
+               </ul>
+            </form>
+			
+         </div>
+      </div>
+    </div>
+    <div class="dl-footer">
+         <p class="ft-fst">
+           <a href="#">联系我们&nbsp;</a>
+           <b>|</b>
+           <a href="#">&nbsp;帮助中心</a>
+         </p>
+         <p>
+           <a href="#">© 2005-2018 JOINFIT官方商城 版权所有，并保留所有权利
+           。
+           </a>
+           <a href="#">&nbsp;吴中区越溪镇前珠路16-8号 </a>
+           <a href="#">&nbsp;Tel: 0512-69383325</a>
+           <a href="#">&nbsp;E-mail: joinfit@qq.com</a>
+         </p>
+         <p class="ft-tr">
+           <img src="img/1e97d64eca91415186c8c48184c71aca.gif">
+           <a>&nbsp;&nbsp;1045849775</a>
+         </p>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/header.js"></script>
+	  <script	src="js/ajax.js"></script>
+   <script src="js/denglu.js"></script>
+ </body>
+</html>

@@ -1,0 +1,118 @@
+.xztp{
+  width:1060px;
+  padding:0 70px 0 70px;
+  position:relative;
+  border:1px solid red;
+  height:330px;
+  margin:0 auto;
+}
+.xztp li:nth-child(1){
+    position: absolute;
+    left:128px;
+    top:-2px;
+    width:517px;
+    height:320px;
+    opacity:1;
+    z-index:280;
+    font-size:12px;
+	background-size:cover;
+	background:black;
+}
+.xztp li:nth-child(2){
+    position:absolute;
+    left:399px;
+    top:11px;
+    width:471.556px;
+    height:292.5px;
+    opacity:1;
+    z-index:254;
+    font-size:10.9px;
+	background:black;
+}
+.xztp li:nth-child(3){
+    position: absolute;
+    left:556px;
+    top:42px;
+    width:361.9px;
+    height:244.475px;
+    opacity:1;
+    z-index:190;
+    font-size:8.4px;
+	background:black;
+}
+.xztp li:nth-child(4){
+    position:absolute;
+    left:508px;
+    top:72px;
+    width:252.244px;
+    height:141.003px;
+    opacity:1;
+    z-index:126;
+    font-size:5.9px; 
+	background:black;
+}
+.xztp li:nth-child(5){
+    position:absolute;
+    left:283px;
+    top:85px;
+    width:206.8px;
+    height:115.6px;
+    opacity:1;
+    z-index:100;
+    font-size:4.8px;
+	background:black;
+}
+.xztp li:nth-child(6){
+    position:absolute;
+    left:12px;
+    top:72px;
+    width:252.244px;
+    height:141.003px;
+    opacity:1;
+    z-index:126;
+    font-size:5.9px;
+	background:black;
+}
+.xztp li:nth-child(7){
+    position:absolute;
+    left:-146px;
+    top:42px;
+    width:361.9px;
+    height:244.475px;
+    opacity:1;
+    z-index:190;
+    font-size:8.4px;
+	background:black;
+}
+.xztp li:nth-child(8){
+    position:absolute;
+    left:-98px;
+    top:11px;
+    width:471.556px;
+    height:292.5px;
+    opacity:1;
+    z-index:254;
+    font-size:10.9px;
+	background:black;
+}
+.xztp img{
+    display: block;
+    width:100%;
+    height:100%;
+    opacity:.7;
+}
+.xztp img:hover{
+   opacity:1;
+}
+.btn{
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background:url(../img/ico_play.png) center no-repeat;
+    opacity:0;
+}
+.xs{
+  opacity:1;
+}

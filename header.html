@@ -1,57 +1,68 @@
 
-      <div>
-        <!-- Logo图标 -->
-        <div class="logo">
-          <img src="img/header/logo.png" alt=""/>
-          <div class="up">旅 游 去</div>
-          <div class="down">说 走 就 走 的 旅 行</div>
-        </div>
-        <!-- 搜索行 -->
-        <div class="search">
-          <div class="input-box">
-            <span class="sort-search">分类搜索<i class="caret"></i></span>
-            <ul class="shelper">
-              <!-- <li>
-                <div class="search-item" title="${p.title}">${p.title}</div>
-              </li> -->
-            </ul>
-            <input type="text" class="txtSearch" placeholder="请输入您要搜索的内容">
-            <a href="javascript:;" class="search-img" data-trigger="search">
-              <img src="img/app/zoom_in_black.png" alt="">
-            </a>
-          </div>
+ 
+   <header>
+           <div class="headerF">
+             <span>
+               JOINFIT 官方网站
+             </span>
+             <ul>
+			  <li>
+			    <ul data-toggle="loginList">
+				  <li class="list">
+					<a href="zhuce.html">注册</a>
+				  </li>
+				  <li class="list">
+					<a href="javascript:;">登录</a>
+				   </li>
+                </ul>
+				<ul data-toggle="welcomeList" style="display:none">
+				  <li class="list">
+					<a href="user.html">用户中心</a>
+				  </li>
+				  <li class="list">
+					<a href="javascript:;">注销</a>
+				   </li>
+                </ul>
+              </li>
+			   <li><b class="firstb">|</b></li>
+              <li>
+                <ul id="lkai">         
+                  <li class="zhanghao"><a id="wodzd">我的账户</a></li>
+                  <li class="xlk">
+                     <a>我的订单</a>
+                     <a>我的分享</a>
+                     <a>我的积分</a>
+                     <a>我的售后</a>
+                  </li>    
+                </ul>          
+              </li>
+              <li>
+                 <b class="secondb">|</b>
+                 <a href="#">帮助中心</a>
+              </li>
+             </ul>
+           </div>
+           <hr>
+           <div class="headerS"> 
+              <div class="logo">
+                <a href="index.html"><img src="img/logo.png"></a>
+              </div>
+              <ul class="cpin">
+               <li><a href="product.html">所有产品</a></li>
+               <li><a href="#">品牌故事</a></li>
+               <li><a href="#">训练指导视频</a></li>
+               <li><a href="#">力量交叉区</a></li>
+               <li><a href="#">运动学院</a></li>
+               <li><a href="#">新品上市</a></li>
+               <li><a href="#">联系我们</a></li>
+               <li><a href="#">JOINFIT售后</a></li>
+              </ul>
+              <div class="ss">
+                 <input style="text" placeholder="搜索"></input>
+                 <b></b>
+                 <a data-cart="1"></a>
+                 <i id="end">0</i>
+              </div>
+           </div> 
+        </header>
 
-        </div>
-        <!-- 登录、注册行 -->
-        <div class="header-rt">
-          <div data-toggle="login" class="list hidden">
-            请 <a href="javascript:;">登录</a> 或 <a href="javascript:;">免费注册</a>
-          </div>
-          <div data-toggle="welcome" class="list  ">
-            欢迎回来,
-            <a href="javascript:;" data-name="uname"></a>
-            <b>|</b>
-            <a href="javascript:;">注销</a>
-          </div>
-          <b>|</b>
-          <div>
-            <a href="cart.html">我的行程表</a>
-          </div>
-          <b>|</b>
-          <div>
-            <a href="javascript:;">查看订单</a>
-          </div>
-          <b>|</b>
-          <div>
-            <a href="javascript:;">联系客服</a>
-          </div>
-        </div>
-        <!-- 首页行 -->
-        <div class="nav">
-          <div><a href="index.html">首页</a></div>
-          <div><a href="javascript:;">目的地</a></div>
-          <div><a href="javascript:;">旅行者游记</a></div>
-          <div><a href="products.html">旅游商城</a></div>
-          <div><a href="javascript:;">人气指南</a></div>
-        </div>
-      </div>

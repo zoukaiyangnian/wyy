@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+      .person-main>h2{
+      }
+      .person{
+          width: 989px;
+          height:auto;
+          border:1px solid #e4e4e4;
+          padding:30px;
+      }
+      .person>h4{
+          width:100%;
+          height:40px;
+          font-weight:normal;
+      }
+      .person>div{
+          width:100%;
+          height:40px;
+          vertical-align: middle;
+          margin-bottom:20px;
+      }
+      .person>div>span{
+          display:inline-block;
+          width:10%;
+          margin-left:10px;
+          text-align:center;
+          font-weight:block;
+      }
+      .person>.p-img{
+          height:105px;
+          margin-bottom:10px;
+          position:relative;
+      }
+      .person>.p-img>img{
+          width:80px;
+          height:80px;
+          vertical-align:top;
+          border:1px solid #e4e4e4;
+      }
+      .person>.p-img>input{
+          position:absolute;
+          top:56px;
+          left:220px;
+      }
+      .brithday{width:420px; auto 0 auto; min-height:60px;}
+      .demo p{line-height:42px; font-size:16px}
+      .form-group{
+        display:inline-block;
+        margin-left:15px;
+      }
+      .dizhi{
+         display:inline-block;
+      }
+  </style>
+     <link rel="stylesheet" href="css/base.css">
+ </head>
+  <body>
+    <div class="person-main">
+	      <h2>个人资料</h2>
+		     <form action="data/person/updatePerson.php" method="post" enctype="multipart/form-data" >
+	          	<div class="person">
+              <h4>亲爱的****，请填写真实的资料，有助于好友找到你哦</h4>
+              <div class="p-img" id="p-img">
+                 <span>当前头像 :</span>
+                 <img>		       
+                 <input type="file" name="mypic" id="file">
+              </div>
+              <div class="p-name">
+                  <span>昵称：</span>
+                  <input type="text" name="uname" value="">
+              </div>
+              <div class="r-name">
+                  <span>真实姓名：</span>
+                  <input type="text" name="rname" value="">
+              </div>
+              <div class="gander">
+                  <span>性别：</span>
+                  <input type="radio" name="gander" value="1">男
+                  <input type="radio" name="gander" value="0">女
+              </div>
+              <div class="brithday">
+                 <span> 生日：</span> 
+                 <select class="sel_year" rel="2000"> </select> 年
+                 <select class="sel_month" rel="2"> </select> 月
+                 <select class="sel_day" rel="14"> </select> 日
+              </div>
+              <div class="city">
+                <span>居住地：</span>
+                <div id="distpicker3" class="dizhi">
+                  <div class="form-group">
+                       <label class="sr-only" for="province6">省份</label>
+                       <select class="form-control" id="province6"></select>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="city6">城市</label>
+                    <select class="form-control" id="city6"></select>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="district6">市区</label>
+                    <select class="form-control" id="district6"></select>
+                  </div>
+                </div>
+             </div>
+			  <input type="submit" value="确定修改">
+		</div>
+		<form>
+	 </div>
+  </body>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/birthday.js"></script>
+  <script src="js/distpicker.data.js"></script>
+	  <script src="js/distpicker.js"></script>
+	  <script src="js/main.js"></script>
+  <script>
+//   图片上传
+   document.getElementById('file').onchange = function(){
+    var imgFile = this.files[0];
+	console.log(imgFile);
+    var fr = new FileReader();
+    fr.onload = function() {
+     document.getElementById('p-img').getElementsByTagName('img')[0].src=fr.result;
+    };
+    fr.readAsDataURL(imgFile);
+   };
+   //生日
+  $(function () {
+	     $.ms_DatePicker({
+            YearSelector: ".sel_year",
+            MonthSelector: ".sel_month",
+            DaySelector: ".sel_day"
+      });
+	     $.ms_DatePicker();
+    });
+    $("#distpicker3").distpicker({
+       province: "浙江省",
+       city: "杭州市",
+       district: "西湖区"
+     });
+</script>
+</html>

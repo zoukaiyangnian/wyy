@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>注册</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/zhuce.css">
+ </head>
+ <body>
+    <div id="header"></div>
+    <section>
+       <div class="dl-title">
+         <i></i>
+         <a href="index.html">首页</a>
+         <span class="">&gt;用户中心</span>
+       </div>
+       <div class="zc-mian">
+         <img src="img/registerPic.jpg">
+         <div class="zck">
+            <ul class="zck-t">
+             <li data-toggle="tab" class="active" id="#a1">手机注册</li>
+             <li data-toggle="tab" id="#a2">邮箱注册</li>
+             <li>已有账号！<a href="denglu.html">登录</a></li>
+            </ul>
+            <div class="zck-mian">
+              <div class="zck-first" id="a1"> 
+                <form>
+                 <div class="zck-zh">
+                    <input type="text" name="uname" id="uname" 
+                    placeholder="手机" class="input1">
+                    <i></i>
+                    <div>
+                      <span id="yname"></span>
+                    </div>
+                 </div>
+                 <div class="zck-mm">
+                    <input type="password" name="upwd"  id="upwd" 
+                    class="input1" placeholder="密码">
+                    <i></i>
+                    <div>
+                      <ul>
+                       <li id="ruo">弱</li>
+                       <li id="zho">中</li>
+                       <li id="qia">强</li>
+                      </ul>
+                      <span id="ypwd"></span>
+                    </div>
+                 </div>
+                 <div class="mm-sd">
+                    <input type="password" name="upwdc" id="upwdc" 
+                    class="input1" placeholder="确认密码">
+                    <i></i>
+                    <div>
+                      <span id="yupwdc"></span>
+                    </div>
+                 </div>
+                 <div class="zck-yz">
+                    <input type="text" name="yzm" placeholder="验证码" 
+                    class="input2" id="phone-m">
+                    <img src="data/users/code.php" alt="看不清点击换一张" 
+                    id="phone-tp">
+                    <div>
+                      <span id="phone-m1"></span>
+                    </div>
+                 </div>
+                 <div class="sj-yz" style="display:none">
+                    <input type="text" name="syzm" placeholder="手机验证码" 
+                    class="input2" id="sy">
+                    <i></i>
+                    <input type="button" value="获取手机验证码" 
+                    class="sjan">
+                    <div>
+                      <span></span>
+                    </div>
+                 </div>
+                 <div class="zc-an">
+                    <div>
+                      <input type="checkbox" id="xy">
+                      <label for="xy">我已看过并接受《<a href="#">用户协议
+                      </a>》</label>
+                    </div>
+                    <input type="button" value="立即注册" id="zcnn">
+                 </div>
+                </form>
+              </div>
+              <div class="zck-second sjyx" id="a2">
+                <form>
+                 <div class="zck-zh">
+                    <input type="text" name="email" id="email" 
+                    placeholder="邮箱" class="input1">
+                    <i></i>
+                    <div>
+                      <span id="show-email"></span>
+                    </div>
+                 </div>
+                 <div class="zck-mm">
+                    <input type="password" name="upwd"  id="upwd1" 
+                    class="input1" placeholder="密码">
+                    <i></i>
+                    <div>
+                      <ul>
+                       <li id="ruo1">弱</li>
+                       <li id="zho1">中</li>
+                       <li id="qia">强</li>
+                      </ul>
+                      <span id="ypwd1"></span>
+                    </div>
+                 </div>
+                 <div class="mm-sd">
+                    <input type="password" name="upwdc" id="upwdc1" 
+                    class="input1" placeholder="确认密码">
+                    <i></i>
+                    <div>
+                      <span id="yupwdc1"></span>
+                    </div>
+                 </div>
+                 <div class="zck-yz">
+                    <input type="text" name="yzm" placeholder="验证码" 
+                    class="input2" id="email-m">
+                    <img src="data/users/code.php" alt="看不清点击换一张" 
+                    id="email-tp">
+                    <div>
+                      <span id="email-m1"></span>
+                    </div>
+                 </div>
+                 <div class="sj-yz" style="display:none">
+                    <input type="text" name="syzm" placeholder="手机验证码" 
+                    class="input2">
+                    <i></i>
+                    <input type="button" value="获取手机验证码" 
+                    class="sjan">
+                    <div>
+                      <span></span>
+                    </div>
+                 </div>
+                 <div class="zc-an">
+                    <div>
+                      <input type="checkbox" id="xy">
+                      <label for="xy">我已看过并接受《<a href="#">用户协议
+                      </a>》</label>
+                    </div>
+                    <input type="button" value="立即注册" id="yxan">
+                 </div>
+                </form>
+              </div>
+            </div>
+         </div>
+       </div>
+    </section>
+    <div class="dl-footer">
+         <p class="ft-fst">
+           <a href="#">联系我们&nbsp;</a>
+           <b>|</b>
+           <a href="#">&nbsp;帮助中心</a>
+         </p>
+         <p>
+           <a href="#">© 2005-2018 JOINFIT官方商城 版权所有，并保留所有权利
+           。
+           </a>
+           <a href="#">&nbsp;吴中区越溪镇前珠路16-8号 </a>
+           <a href="#">&nbsp;Tel: 0512-69383325</a>
+           <a href="#">&nbsp;E-mail: joinfit@qq.com</a>
+         </p>
+         <p class="ft-tr">
+           <img src="img/1e97d64eca91415186c8c48184c71aca.gif">
+           <a>&nbsp;&nbsp;1045849775</a>
+         </p>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/zhuce.js"> </script>
+	   <script src="js/ajax.js"> </script>
+ </body>
+</html>

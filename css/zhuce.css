@@ -1,0 +1,259 @@
+section{
+  width:100%;
+  height:600px;
+  margin-bottom:20;
+}
+ .dl-title{
+   width:990px;
+   height:32px;
+   padding:6px 0 6px 0;
+   margin:0 auto;
+ }
+ .dl-title>i{
+    width:12px;
+    height:12px;
+	line-height:32px;
+    display:inline-block;
+    margin-right:5px;
+    vertical-align:middle;
+   background:url(../img/user_header.png) no-repeat -427px -208px;
+ }
+ .dl-title>a,.dl-title>span{
+   font-size:14px;
+   line-height:32px;
+   height:32px;
+ }
+ .dl-title>a:hover{
+    color:blue;
+ }
+ .zc-mian{
+  width:990px;
+  height:499px;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+ }
+ .zc-mian>img{
+   width:605px;
+   height:430px;
+ }
+ .zck{
+   width:385px;
+   height:499px;
+ }
+  .zck-t{
+    font-size:14px;
+    width:385px;
+    height:31px;
+  }
+  .zck-t li{
+    float:left;
+	height:31px;
+    line-height:31px;
+	background:#fff;
+	border-bottom:1px solid #ddd;
+  }
+  .zck-t li:nth-child(1){
+    margin-top:0;
+	width:130px;
+	text-align:center;
+	cursor:pointer;
+  }
+  .active{
+     border:1px solid #ddd;
+	  color:#e4393e;
+     border-bottom:0 !important;
+  }
+  .zck-t li:nth-child(2){
+    width:130px;
+	text-align:center;
+	cursor:pointer;
+  }
+  .zck-t li:nth-child(3){
+    width:122px;
+	text-align:right;
+	font-size:12px;
+    padding-top:5px;
+	height:26px;
+	line-height:21px;
+  }
+  .zck-t a{
+    color: #E4393C;
+  }
+  .zck-t a:hover{
+    text-decoration:underline;
+  }
+  .zck-mian{
+    overflow:hidden;
+    border:1px #ddd solid;
+	border-top:0;
+    padding:20px 41px;
+    width: 301px;
+    min-height: 370px;
+    height:auto;
+  }
+  .input1{
+    width:258px;
+    height:16px;
+    padding:10px 5px 10px 5px;
+    border:1px solid #cccccc;
+    font-size:12px;
+    font-family:arial;
+    color:#999;
+	padding-left:27px;
+}
+.zck-zh,.zck-mm,.mm-sd,.zck-yz,.sj-yz{
+  width:300px;
+  height:68px;
+  position:relative;
+}
+.zck-zh i,.zck-mm i,.mm-sd i,.sj-yz i{
+   display:inline-block;
+   width:14px;
+   height:21px;
+   background:url(../img/register.png) -1px -50px;
+   position:absolute;
+   top:9px;
+   left:8px; 
+}
+ .zck-mm i{
+   background:url(../img/register.png) -1px -25px;
+ }
+ .mm-sd i{
+   background:url(../img/register.png) -1px -25px;
+ }
+.zck-mian span{
+    padding-left:10px;
+    height:30px;
+    line-height:30px;
+    display:inline-block;
+	color:rgb(153,0,0);
+	font-size: 12px;
+}
+.input2{
+   width:75px;
+   padding-left:30px;
+   height:16px;
+   padding:10px 5px 10px 30px;
+   border:1px solid #cccccc;
+   font-size:12px;
+   font-family:arial;
+   color:#999;
+}
+.zck-yz i{
+   display:inline-block;
+   width:135px;
+   height:36px;
+   position:absolute;
+   background:url(../img/captcha2.png)no-repeat;
+   top:2px;
+   left:133px;
+   cursor:pointer;
+}
+.sjan{
+    height:37px;
+    font-size:12px;
+    color:#FFF;
+    background:#E4393C;
+    text-align:center;
+    line-height:37px;
+    text-decoration:none;
+    cursor:pointer;
+    padding:0px 8px;
+    border:none;
+    margin-left:10px;
+	border-radius:2px;
+	opacity:0.9;
+	outline:none;
+}
+.zc-an>div{
+    height:35px;
+	position:relative;
+}
+.zc-an>div input{
+ position:absolute;
+ top:5px;
+ left:0;
+}
+.zc-an>div label{
+  font-size:12px;
+   position:absolute;
+   top:5px;
+   left:21px;
+}
+.zc-an>div label a{
+  color:#4848dd;
+}
+.zc-an>input{
+    width: 300px;
+    height: 35px;
+    font-size: 14px;
+    color: #FFF;
+    background: #E4393C;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border: none;
+	border-radius:5px;
+	opacity:0.9;
+	outline:none;
+}
+.zc-an>input:hover{
+   opacity:1;
+}
+ .dl-footer{
+   padding-top:15px;
+   width:100%;
+   height:115px;
+   background:#fafafa;
+ }
+ .dl-footer>p{
+   width:990px;
+   height:25px;
+   line-height:25px;
+   text-align:center;
+   margin:0 auto;
+   font-size:12px;
+ }
+ .ft-fst{
+   margin-top:15px;
+ }
+ .ft-fst img{
+   width:23px;
+   height:16px;
+   vertical-align:bottom;
+  }
+  .dl-footer a:hover{
+    color:red;
+	text-decoration:underline;
+  }
+.sjyx{
+  display:none !important;
+}
+.sjyx1{
+  display:block !important;
+}
+.zck-mm ul li{
+font-size:12px;
+  float:left;
+  width:98px;
+  height:29px;
+  text-align:center;
+  line-height:29px;
+  margin-bottom:10px;
+}
+.mm-sd i{
+  position:absolute;
+  top:17px;
+}
+.ys{
+   color: rgb(0, 153, 51)!important;
+}
+.ys1{
+  color:red;
+}
+.zck-yz{
+  margin-top:10px;
+}

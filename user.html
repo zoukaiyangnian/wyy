@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户中心</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+<div id="header">
+</div>
+<div class="user-main">
+    <div class="user-first">
+        <a href="index.html">首页 </a>
+        <span>&gt; 用户中心</span>
+    </div>
+    <div class="user-second">
+        <div class="left">
+            <div class="Udata">
+                <h2>会员中心</h2>
+                <div>
+                    <a id="portrait"></a>
+                    <span id="xiugai2"><i></i>修改资料</span>
+                    <b><i></i>安全退出</b>
+                    <i>u187XPFE5627</i>
+                </div>
+            </div>
+            <div class="user-detail">
+                <ul>
+                    <li class="dandu"><a href="#" >会员中心</a></li>
+                    <li><a href="#">欢迎页</a></li>
+                    <li><a href="#">用户信息</a></li>
+                    <li><a href="#">账户安全</a></li>
+                    <li><a href="#">收货地址</a></li>                 
+                </ul>
+            </div>
+        </div>
+        <div class="right" id="right1">
+              <div class="zhao lf">
+                  <div>
+                      <p>账户余额</p>
+                <i class="i6"></i>
+                               <span>0.00</span>
+                           </div>
+                           <div>
+                               <p>红包</p>
+                <i class="i7"></i>
+                               <span>0 张</span>
+                           </div>
+                           <div>
+                               <p>可用积分</p>
+                <i class="i8"></i>
+                      <span>0</span>
+                  </div>
+              </div>
+              <div class="safety rt">
+                  <p>账户安全</p>
+                  <div>
+                      <span>一般</span>
+					  <i></i>
+                      <b>提升></b>
+                  </div>
+				  <h2>
+					<i></i>
+					<span class="shouji">手机：已验证</span>
+					<b></b>
+					<span>邮箱：<a>未绑定</a></span>
+				  </h2>        
+              </div>
+              <div class="sale lf">
+                  <div class="line1">
+                      <span class="ad">
+                          <i class="red-border"></i>
+                          <b>交易提醒</b>
+                      </span>
+                      <div>
+                          <a href="#">未确认<span>0</span></a>
+						  <i></i>
+                          <a href="#">待付款<span>0</span></a>
+						  <i></i>
+                          <a href="#">待评论<span>0</span></a>
+						  
+                      </div>
+                      <a>查看全部订单></a>
+                  </div>
+                  <div class="line2 fontColor">
+				    <i class="i1"></i>
+					<span>您好久没在商城购物了，这里空空的，赶快去购物吧！</span>
+				  </div>
+              </div>
+              <div class="cart rt">
+                    <span class="ad">
+                        <i class="red-border"></i>
+                        <b>我的购物车</b>
+                    </span>
+                    <div class="fontColor myfontColor" style="display:none">
+				      <i class="i2" style="display:none"></i>
+				      <span style="display:none">
+					     您还没有留下任何足迹！
+					  </span>
+				    </div>
+					 <ul class="shop-list">				
+					  </ul>
+                    <a href="shopping-cart.html" class="shopping">查看购物车
+                    所有商品</a>
+              </div>
+              <div class=" integral lf">
+                  <span class="ad">
+                        <i class="red-border"></i>
+                        <b>积分兑换</b>
+                        <a href="#">进入积分商城></a>
+                    </span>
+                  <div class="fontColor">
+				     <i class="i3"></i>
+				     <span>没有可兑换的商品呦！随便去逛逛吧！</span>
+                  </div>
+              </div>
+              <div class="myfoot rt">
+                  <span class="ad">
+                      <i class="red-border"></i>
+                      <b>我的足迹</b>
+                  </span>
+                  <div class="fontColor myfontColor">
+				      <i class="i4"></i>
+				     <span>您还没有留下任何足迹！</span>
+				  </div>
+              </div>
+              <div class="collect">
+                  <div class="collect1">
+                      <span class="ad at">
+                          <i class="red-border"></i>
+                          <b>商品收藏</b>
+                      </span>
+                      <span class="rd">
+                          <i class="red-border hidden1"></i>
+                          <b>商铺关注</b>
+                      </span>
+                  </div>
+                  <div class="fontColor" style="display:none">
+				      <i class="i5"></i>
+				     <span class="qhuan">您的店铺收藏空空的，赶快去收藏店铺吧！</span>
+				  </div>
+				  <ul id="scollect">
+				  	<li>
+					  <img src="img/475_thumb_P_1476636000304.jpg" alt="">
+					  <span>JOINFIT 悬吊拉力器套装 Hangflex</span>
+					</li>
+				  </ul>	
+              </div>
+        </div>
+    <div class="person-main" style="display: none">
+	      <h2>个人资料</h2>
+		     <form action="data/person/updatePerson.php" method="post" 
+       enctype="multipart/form-data" >
+	          	<div class="person">
+              <h4>亲爱的****，请填写真实的资料，有助于好友找到你哦</h4>
+              <div class="p-img" id="p-img">
+                 <span>当前头像 :</span>
+                 <img src="img/peopleicon_01.gif">		       
+                 <input type="file" name="mypic" id="file">
+              </div>
+              <div class="p-name">
+                  <span>昵称：</span>
+                  <input type="text" name="uname" value="">
+              </div>
+              <div class="r-name">
+                  <span>真实姓名：</span>
+                  <input type="text" name="rname" value="">
+              </div>
+              <div class="gander">
+                  <span>性别：</span>
+                  <input type="radio" name="gander" value="1">男
+                  <input type="radio" name="gander" value="0">女
+              </div>
+              <div class="brithday">
+                 <span> 生日：</span> 
+                 <select class="sel_year" rel="2000"> </select> 年
+                 <select class="sel_month" rel="2"> </select> 月
+                 <select class="sel_day" rel="14"> </select> 日
+              </div>
+              <div class="city">
+                <span>居住地：</span>
+                <div id="distpicker3" class="discity">
+                  <div class="form-group">
+                       <label class="sr-only" for="province6">省份</label>
+                       <select class="form-control" id="province6"></select>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="city6">城市</label>
+                    <select class="form-control" id="city6"></select>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="district6">市区</label>
+                    <select class="form-control" id="district6"></select>
+                  </div>
+                </div>
+             </div>
+                <input type="button" value="确定修改" class="xiugai" id="update">       
+                     		       
+		       </div>
+		     </form>
+	    </div>
+</div>
+</div>
+<div id="footer">
+</div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/user.js"></script>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/birthday.js"></script>
+  <script src="js/distpicker.data.js"></script>
+	 <script src="js/distpicker.js"></script>
+	 <script src="js/main.js"></script>
+</body>
+</html>
