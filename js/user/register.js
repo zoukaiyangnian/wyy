@@ -9,15 +9,22 @@ $(()=>{
     submitHandler(form){
       $.ajax({
         type:"post",
-        url:"data/register.php",//提交注册信息给数据库
+        url:"data/users/register.php",//提交注册信息给数据库
         data:$(form).serialize()
       }).then(text=>{
         if(text){
-          alert("注册成功!")
-          location="index.html"
+          // alert("注册成功!");
+          hiAlert("注册成功!","提示",function(){
+            if(location.search!==""){
+              var back=location.search.slice(6);
+              location=back;
+            }else{
+              location="../index.html";
+            }
+          })
         }else{
-          alert("注册失败，请重新注册!")
-          location="register.html"
+          // alert("注册失败，请重新注册!");
+          hiAlert("注册失败，请重新注册!","提示");
         }//返回是否成功注册
       })
     },
@@ -28,7 +35,7 @@ $(()=>{
         string:"uname",
         alnum:"uname",
         rangelength:[3,9],
-        remote:"data/verify.php"//验证用户名
+        remote:"data/users/verify.php"//验证用户名
       },
       upwd:{
         required:true,
@@ -41,7 +48,7 @@ $(()=>{
       phone:{
         required:true,
         phone:"phone",
-        remote:"data/verify.php"//验证手机号码
+        remote:"data/users/verify.php"//验证手机号码
       },
       gender:{
         required:true,
@@ -81,8 +88,11 @@ $(()=>{
         required:"确认是否同意隐私协议!"
       }
     }
-  })
-	  $(window).keyup(e=>{
-		if(e.keyCode==13) $("form").validate();
-	})
+  });
+  //模拟触发按键
+  $(window).keyup=(e=>{
+    if(e.keyCode==13){
+      $("form").validate();
+    }
+  });
 });
