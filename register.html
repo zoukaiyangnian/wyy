@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>网易云注册</title>
+		<link rel="stylesheet" href="css/base.css"/>
+		<link rel="stylesheet" href="css/register.css"/>
+    <link rel="stylesheet" href="css/verify.css"/>
+   
+	</head>
+	<body>
+    <!--头部-->
+    <div class="header">
+      <div class="header-1"><a href="index.html">网易云音乐</a></div>
+      <ul class="header-u1">
+        <li><a href="gedan.html">发现音乐</a></li>
+        <li><a href="gerenzx.html">我的音乐</a></li>
+        <li><a href="#">朋友</a></li>
+        <li><a href="#">商城</a></li>
+        <li><a href="geshou.html">音乐人</a></li>
+        <li><a href="#">下载客户端</a></li>
+      </ul>
+      <div class="header-2">
+        <input type="text" class="header-2-1" placeholder="音乐/视频/电台用户"/>
+      </div>
+      <span class="header-3"><a href="#">视频投稿</a></span>
+      <!--<ul class="header-u2">登录-->
+        <!--<li><a href="#">手机号登录</a></li>-->
+        <!--<li><a href="#">微信登录</a></li>-->
+        <!--<li><a href="#">QQ登录</a></li>-->
+        <!--<li><a href="#">新浪微博登录</a></li>-->
+        <!--<li><a href="#">网易邮箱账号登录</a></li>-->
+      <!--</ul>-->
+    </div>
+    <form>
+      <header class="header"></header>
+      <section class="main">
+        <div class="register">
+          <div class="uname">
+            <div>用户名:</div>
+            <input type="text" name="uname">
+            <span class="vali_info">用户名必须介于3~9位之间!</span>
+            <img src="img/register/ok.png" alt=""/>
+          </div>
+          <div class="upwd">
+            <div>登录密码:</div>
+            <input type="password" name="upwd">
+            <span class="vali_info">密码必须介于6~8位之间!</span>
+            <img src="img/register/ok.png" alt=""/>
+          </div>
+          <div class="rpwd">
+            <div>确认密码:</div>
+            <input type="password" name="rpwd">
+            <span class="vali_info">两次密码必须一致</span>
+            <img src="img/register/ok.png" alt=""/>
+          </div>
+          <div class="phone">
+            <div>手机号码:</div>
+            <input type="text" name="phone">
+            <span class="vali_info">手机号码必须11位!</span>
+            <img src="img/register/ok.png" alt=""/>
+          </div>
+          <div class="gender">
+            <div>性别:</div>
+            <select name="gender" id="">
+              <option value="0">请选择</option>
+              <option value="1">男</option>
+              <option value="2">女</option>
+            </select>
+            <img src="img/register/ok.png" alt=""/>
+          </div>
+          <div class="email" >
+            <div>邮箱:</div>
+            <input type="email" name="uemail">
+            <span class="vali_info">请输入有效的电子邮件地址</span>
+            <img src="img/register/ok.png" alt=""/>
+          </div>
+          <div class="check">
+            <input type="checkbox" name="check">
+            <div>我已经认真阅读并同意 <a href="#">隐私协议</a></div>
+            <img src="img/register/ok.png" alt=""/>
+          </div>
+          <div class="reg-btn">
+            <input type="submit" value="同意协议并注册" name="sub">
+            <b></b>
+            <div><a href="index.html">返回</a></div>
+          </div>
+        </div>
+      </section>
+    </form>
+    <!--尾部-->
+    <div class="main footer-d">
+      <a href="#">关于网易&nbsp|</a>
+      <a href="#">客户服务&nbsp|</a>
+      <a href="#">服务条款&nbsp|</a>
+      <a href="#">网站导航&nbsp|</a>
+      <a href="#">意见反馈</a>
+      <p>网易公司版权所有©1997-2017杭州乐读科技有限公司运营：浙网文[2015] 0415-135号</p>
+      <ul class="footer-u">
+        <li>
+          <a href="#"><img src=""></a>
+          <a href="#">独立音乐人</a>
+        </li>
+        <li>
+          <a href="#"><img src=""></a>
+          <a href="#">音乐专栏</a>
+        </li>
+        <li>
+          <a href="#"><img src=""></a>
+          <a href="#">自媒体</a>
+        </li>
+        <li>
+          <a href="#"><img src=""></a>
+          <a href="#">赞赏</a>
+        </li>
+      </ul>
+    </div>
+	</body>
+	<script src="js/jquery-3.2.0.js"></script>
+  <script src="js/jquery.validate.js"></script>
+  <script src="js/KyjLib.js"></script>
+	<script src="js/user/verify.js"></script>
+  <script src="js/user/register.js"></script>
+</html>
